@@ -1,0 +1,34 @@
+{
+  "name": "node-hud",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "webpack",
+    "watch": "npm run build -- --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Zach Koch <ezekeal@gmail.com> (http://www.github.com/ezekeal)",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^1.4.12",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.20.0",
+    "babel-loader": "^6.2.10",
+    "babel-preset-latest": "^6.16.0",
+    "babel-preset-react": "^6.16.0",
+    "css-loader": "^0.26.1",
+    "postcss-cssnext": "^2.9.0",
+    "postcss-loader": "^1.2.1",
+    "precss": "^1.4.0",
+    "standard": "^8.6.0",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.14.0",
+    "webpack-merge": "^1.1.1"
+  }
+}
